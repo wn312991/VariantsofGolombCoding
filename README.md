@@ -4,12 +4,12 @@ The input sequence follows the geometric distribution provided by the GNU scient
 
 You can refer to the installation of gsl2.4 on ubuntu at https://blog.csdn.net/u012248802/article/details/77920084  
 
-To test Golomb.c, run : 
-chmod u+x TestGolomb.sh
-./TestGolomb.sh
+To test Golomb.c, run :   
+chmod u+x TestGolomb.sh  
+./TestGolomb.sh  
 
-To test Ours.c, run :
-chmod u+x TestOurs.sh
-./TestOurs.sh
+To test Ours.c, run :  
+chmod u+x TestOurs.sh  
+./TestOurs.sh  
 
 Please refer to the Experimental results.pdf to see the results on my machine.
