@@ -219,8 +219,6 @@ void our_dec(uint32_t* ptr, size_t in_size,uint32_t* res) {
 }
 
 void main (){
-    clock_t clockBegin;
-    int ir = LOOP;
     const gsl_rng_type * T;
     gsl_rng * r;
 
