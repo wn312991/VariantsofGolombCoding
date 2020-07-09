@@ -10,7 +10,7 @@
 #define  M PASSED_M
 #define  b PASSED_b
 
-const uint32_t B=((1<<b)-M);
+const uint32_t B=((1<<b)-M);   //constexprs are computed at compile time, not running time
 const uint32_t mask= ((1<<b)-1);
 const uint32_t S= ((M<<1) - (1<<b));
 const uint32_t m = 65536/M + (65536%M? 1: 0);
