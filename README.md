@@ -6,10 +6,6 @@ The input sequence follows the geometric distribution provided by the GNU scient
 You can refer to the installation of gsl2.4 on ubuntu at https://blog.csdn.net/u012248802/article/details/77920084  
 Notably, before running, you need to modify the corresponding location of the GSL Library in your machine in .sh files.
 
-To test the average number of arithmetic operations in both coding, run :  
-chmod u+x ArithmetricTest.sh  
-./ArithmetricTest.sh  
-
 To test Golomb.c, run :   
 chmod u+x TestGolomb.sh  
 ./TestGolomb.sh  
